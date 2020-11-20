@@ -97821,9 +97821,10 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-var Web3 = require("web3");
+var Web3 = require("web3"); //const contractAddress = "0xD497D69810A8Ac3c7DE4C92f5d3C0a9D6685a16b"; // insert MartianMarket contract address here
 
-var contractAddress = "0xD497D69810A8Ac3c7DE4C92f5d3C0a9D6685a16b"; // insert MartianMarket contract address here
+
+var contractAddress = "0xf007147e012e368085d32e129EaDB1162a0ed57E"; // kovan
 
 var dApp = {
   ethEnabled: function ethEnabled() {
@@ -98284,7 +98285,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61737" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49357" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
