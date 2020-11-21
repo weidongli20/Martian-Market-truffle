@@ -22,7 +22,7 @@ Please use Google Chrome to open this page and Click [here](https://weidongli20.
 
 1. Clone the repository
 2. Install dependencies
-3. Run local http server (e.g. python -m http.server 8000)
+3. ... (my contact as below)
 
 ## Screenshots
 
@@ -37,7 +37,7 @@ Withdraw Page
 
 ## License
 
-- MIT
+- FREE
 
 ## Contact
 
