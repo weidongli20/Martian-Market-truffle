@@ -19,7 +19,7 @@
  */
 
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const mnemonic = "advance remember smart hybrid immense alien medal duty region culture spread lounge";
+const mnemonic = "";
 
 module.exports = {
   /**
@@ -58,7 +58,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     ropsten: {
-      provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/dbaa7773412449849223986a9ba1461e`),
+      provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/`),
       network_id: 3,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
@@ -67,7 +67,7 @@ module.exports = {
     },
 
     kovan: {
-      provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/dbaa7773412449849223986a9ba1461e`),
+      provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/`),
       network_id: 42,
       gas:  0x7a1000,
       gasPrice: 2000000000
