@@ -22,7 +22,7 @@ Please use Google Chrome to open this page and Click [here](https://weidongli20.
 
 1. Clone the repository
 2. Install dependencies
-3. ... (my contact as below)
+3. ... (my contact info as below)
 
 ## Screenshots
 
