@@ -16,7 +16,7 @@
 
 ## Demo App
 
-Please use **_Google Chrome_** </span>to open this page and Click [here](https://weidongli20.github.io/Martian-Market-truffle/) to launch the MartianMarket application
+Please use [Google Chrome](https://www.google.com/chrome/) to open this page and Click [here](https://weidongli20.github.io/Martian-Market-truffle/) to launch the MartianMarket application
 
 ## Installation Instructions
 
